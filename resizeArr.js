@@ -1,7 +1,7 @@
-// resize any arry
+// resize any array
 // suppose we have an arr of numbers between 1-10
 // we want that arr to hold numbers between 1-7
-// we can use arr length property to resize arry
+// we can use arr length property to resize array
 // now assign the arr length you want on arr.length
 // as simple as it is
 
