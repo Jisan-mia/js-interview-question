@@ -7,5 +7,5 @@ console.log(`language1 - ${language1}`); // language1 - JavaScript
 console.log(`language2 - ${language2}`); // language2 - Python
 
 // below is the smart way to do this
-console.log({ language1 });
-console.log({ language2 });
+console.log({ language1 }); // { language1: 'JavaScript' }
+console.log({ language2 }); //{ language2: 'Python' }
