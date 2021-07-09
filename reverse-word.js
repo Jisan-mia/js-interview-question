@@ -12,3 +12,15 @@ function reverseWord(str) {
 
 const reversedWords = reverseWord("My name is Jisan");
 console.log(reversedWords);
+
+function solution2(str) {
+	return str
+		.split(" ")
+		.map((word) =>
+			word
+				.split(/([a-zA-Z]+)/)
+				.map((word) => word.split("").reverse().join(""))
+				.join("")
+		)
+		.join(" ");
+}
