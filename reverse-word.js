@@ -4,15 +4,17 @@
   punctuation.
  */
 
+// it reverse punctuation too
 function reverseWord(str) {
 	let splitWords = str.split(" ");
 	let reverse = splitWords.map((word) => word.split("").reverse().join(""));
 	return reverse.join(" ");
 }
 
-const reversedWords = reverseWord("My name is Jisan");
+const reversedWords = reverseWord("Hello, world! Happy Hacking!");
 console.log(reversedWords);
 
+// it doesn't reverse punctuation
 function solution2(str) {
 	return str
 		.split(" ")
@@ -24,3 +26,4 @@ function solution2(str) {
 		)
 		.join(" ");
 }
+console.log(solution2("Hello, world! Happy Hacking!"));
