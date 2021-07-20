@@ -1,3 +1,5 @@
+// copy to clipboard trick
+
 function copyToClipboard(text) {
 	let textArea = document.createElement("textarea");
 	textArea.value = text;
