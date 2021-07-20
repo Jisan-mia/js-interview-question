@@ -38,4 +38,4 @@ function withoutRemFizzBuzz(startNum, endNum) {
 		}
 	}
 }
-withoutRemFizzBuzz(1, 15);
+// withoutRemFizzBuzz(1, 100);
