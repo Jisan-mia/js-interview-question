@@ -20,7 +20,7 @@ console.log({} + []); // it'll output [object object]
 
 console.log([] + ""); // blank("")
 
-// exceptional case
+// exceptional cases
 // if we do same operations with boolean and numbers
 // boolean will convert into number datatype and then it will add with another number operand
 // boolean true = 1 in number, boolean false = 0 in number
