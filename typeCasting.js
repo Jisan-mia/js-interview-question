@@ -18,6 +18,8 @@ console.log({} + []); // it'll output [object object]
 // because string conversion of blankObj{} is [object object] and [] = ""
 // '[object object]' + "" = '[object object]'
 
+console.log([] + ""); // blank("")
+
 // exceptional case
 // if we do same operations with boolean and numbers
 // boolean will convert into number datatype and then it will add with another number operand
