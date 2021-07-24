@@ -19,18 +19,19 @@ function getFibonacci(num) {
 	}
 	return fibo[num];
 }
-console.log(getFibonacci(5));
+// console.log(getFibonacci(5));
 
 //create a Fibonacci series in a recursive way
 //fibo[n] = fibo[n-1] + fibo[n-2]
 
 function getFib(n) {
 	// base case (if n is either 0 or 1 return that num)
+
 	if (n < 2) {
 		return n;
 	}
 
-	// recursive case
+	// recursive case (main part)
 	return getFib(n - 1) + getFib(n - 2);
 }
-console.log(getFib(3));
+console.log(getFib(6));
