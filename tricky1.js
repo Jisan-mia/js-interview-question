@@ -22,7 +22,7 @@ a.method(b, 5); // the length is 2
 
 -> the function of object a also do function call of first arguments(we know first arguments is function b)
 
--> 'this' from function b indicates the arguments of the method of object a. We know we passed two arguments to the object method. we got those arguments as array using arguments. 
+-> 'this' from function b indicates the arguments of the method of object a. We know we passed two arguments to the object method. we got those arguments as array like objects(not arr) using arguments. 
 
 -> so 'this' indicates arguments and in this case this.length(arguments.length) is 2
 
