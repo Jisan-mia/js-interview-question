@@ -26,6 +26,4 @@ a.method(b, 5); // the length is 2
 
 -> so 'this' indicates arguments and in this case this.length(arguments.length) is 2
 
-
-
 */
