@@ -1,17 +1,17 @@
 // double equals(==) check only the value not the type of the value
-//tripple equals(===) chcck both the value and the data type  
+//trippe equals(===) check both the value and the data type  
 
-// 2 == '2' //return ture
+// 2 == '2' //return true
 // 2 === '2' // return false
 
-// js has somethig special
+// js has something special
 // 0 == false
 // 1 == true
 
 // but if we do
 // 0 === false //return false
 // 0 === true //return false
-// because this time we are using tripple equlas(===) to compare and we know tripple equal(===) compares both value and type.
+// because this time we are using trippe equals(===) to compare and we know trippe equal(===) compares both value and type.
 //so there,  0  is a number type value and false is is boolean type value
 // as 0 and false are not same type so this kind of comparison will return false
 

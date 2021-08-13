@@ -29,4 +29,4 @@ console.log(true + 3); // output 4
 console.log(6 + false); // output 6
 // 6 + 0 = 6
 console.log(8 + true + false); // output 9
-// you know it
+// you knew it

@@ -31,7 +31,7 @@ if (name) {
 }
 // output : false
 
-// if you declare a variable with var or let keyword and never assign any vlaue, the value of this variable will be undefined
+// if you declare a variable with var or let keyword and never assign any value, the value of this variable will be undefined
 //if assign null value to any variable, it will return false
 //undefined value is falsy
 //null value also is falsy

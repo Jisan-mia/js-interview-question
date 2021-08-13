@@ -10,14 +10,14 @@ for (let i = 0; i < numbers.length; i++) {
 
 
 // if we pass a function to map, we can pass 3 parameter to this function:
-// first is element, seond index and third the full array
+// first is element, second index and third the full array
 
 const result = numbers.map(function (element) {
     return element * element;
 
 });
 
-//more easey way
+//more easy way
 const result2 = numbers.map(element => element * element);
 
 const result3 = numbers.map(x => x * x);
@@ -27,13 +27,13 @@ console.log(result3);
 
 //ok, map has some bai-brothers
 
-//it only returns the mathcing elements that fulfills the condition
+//it only returns the matching elements that fulfills the condition
 const filterResult = numbers.filter(x => x % 2 == 0);
 console.log(filterResult);
 
 //find
-const findResut = numbers.find(x => x > 5);
-console.log(findResut)
+const findResult = numbers.find(x => x > 5);
+console.log(findResult)
 
 
 //forEach
