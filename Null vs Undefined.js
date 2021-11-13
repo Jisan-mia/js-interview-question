@@ -33,3 +33,11 @@ console.log(fun); // undefined
 
 let ages = [5, 6, 2];
 console.log(ages[11]) // undefined
+
+
+// null
+// It's an assignment value which indicates that variable points to no object.
+// null value is primitive value that represents the null, empty or non-exixtent reference.
+// Converted to zero while performing primitive operations
+let userName = null
+
