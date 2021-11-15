@@ -1,4 +1,4 @@
-// short conditionals
+// short conditionals/ short circuit evaluation 
 // suppose we've a variable pocketMoney and an if conditional and it checks if pocketMoney > 150 then log something on console like this
 
 let pocketMoney = 120;
